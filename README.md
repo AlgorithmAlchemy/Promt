@@ -9,7 +9,7 @@ Swagger/OpenAPI документация через FastAPI tags.
 Все cron, celery-задачи и фоновые работы — вынесены в tasks/ с именованием по шаблону: task_name_tasks.py.
 </code>
 
-<code>
+
 system_prompt = """
 Ты — экспертный Python-разработчик. Следуй PEP8, используй typing, соблюдай чистую архитектуру.
 Проект — FastAPI + PostgreSQL + Celery + Redis.
@@ -26,4 +26,4 @@ system_prompt = """
 – Для временных и служебных данных — папку `.cache/` или `tmp/`, добавленную в .gitignore
 – Запуск приложения: `timeout 60s python run main.py` (ограничение времени выполнения обязательно)
 """
-</code>
+
