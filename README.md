@@ -1,3 +1,6 @@
+
+## ⚙️ Cursor `system_prompt`
+# 1
 ```toml
 Swagger/OpenAPI документация через FastAPI tags.
 
@@ -9,8 +12,7 @@ Swagger/OpenAPI документация через FastAPI tags.
 
 ```
 
-
-## ⚙️ Cursor `system_prompt`
+# 2
 
 ```toml
 system_prompt = """
