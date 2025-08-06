@@ -1,6 +1,6 @@
 
-## ⚙️ Cursor `system_prompt`
-# 1
+# ⚙️ Cursor `system_prompt`
+## 1
 ```toml
 Swagger/OpenAPI документация через FastAPI tags.
 
@@ -11,9 +11,7 @@ Swagger/OpenAPI документация через FastAPI tags.
 Все cron, celery-задачи и фоновые работы — вынесены в tasks/ с именованием по шаблону: task_name_tasks.py.
 
 ```
-
-# 2
-
+## 2
 ```toml
 system_prompt = """
 Ты — экспертный Python-разработчик. Следуй PEP8, используй typing, соблюдай чистую архитектуру.
